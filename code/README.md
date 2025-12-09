@@ -9,6 +9,17 @@ For details (and all of the book!), see the web site: https://www.fuzzingbook.or
 
 The book has plenty of examples for using the code; you are encouraged to read it and then to use this code to try things out.
 
+### Installation
+
+If you want to use the library directly from this repository, install it in editable mode:
+
+```shell
+$ cd code
+$ pip install -e .
+```
+
+This makes the `fuzzingbook` package importable in your environment while keeping the code linked to your local checkout.
+
 ### Importing
 
 You can import the modules in your own projects and use the infrastructure, as in
@@ -20,14 +31,14 @@ f.fuzz()
 ```
 
 ### Running
-	
+
 You can also execute the files directly to run the examples from the book, as in
 
 ```shell
 $ ./Fuzzer.py
 ```
 
-Enjoy!	
+Enjoy!
 
 
 ## License
